@@ -40,5 +40,9 @@ class firebase{
         })
 
 }
+
+    getCurrent(){
+        return app.auth().currentUser && app.auth().currentUser.email
+    }
 }
     export default new firebase();
