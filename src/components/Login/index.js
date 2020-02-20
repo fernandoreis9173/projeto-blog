@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Link, withRouter} from 'react-router-dom';
 import firebase from '../../firebase';
 import './login.css';
-import Dashboard from '../Dashboard';
 
 
 class Login extends Component{
