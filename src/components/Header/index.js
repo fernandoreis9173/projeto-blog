@@ -9,7 +9,7 @@ function Header(){
         <header id="main-header">
             <div className="header-content">
                 <Link to="/">
-                    Blog Programador
+                    Blog Fernando Reis
                 </Link>
 
                 <Link to="/login">
